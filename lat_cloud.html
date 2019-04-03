@@ -5,19 +5,18 @@
 <meta charset="UTF-8">
 <title>CSS Stylesheets with Relative Paths</title>
 
-<!-- This line is money! It points your HTML to the CSS file. -->
-<!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
 <header>
-<div class="navbar">
-<a class="active" href="index.html">Home</a>
-<div class="dropdown">
+    <div class="navbar">
+    <a class="active" href="index.html">Home</a>
+    <div class="dropdown">
     <button class="dropbtn">Dropdown 
-        <i class="fa fa-caret-down"></i>
+    <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
         <a href="lat_temp.html">City Lat vs Max Temp</a>
@@ -27,8 +26,8 @@
         <a href="lat_comparison.html">Comparison Page</a>
         <a href="data_page.html">Data Page</a>
     </div>
-</div> 
-</div>
+    </div> 
+    </div>
 </header>
 
 
@@ -36,8 +35,8 @@
 <h1>The impact of Latitude on Cloud Density</h1>
 
 <h3>
-<p>
-    Method
+<p style = "color : red;">
+Outcome: Latitude does not impact cloud density.
 </p>
 </h3>
 <p>
@@ -48,7 +47,14 @@
 </div>
 
 <div>
-    <img src="../Resources/assets/images/Fig3.png" alt="HTML5 Icon">
+<img src="../Resources/assets/images/Fig3.png" alt="HTML5 Icon">
+<strong>Discussion:</strong>
+<br>
+<p>
+The scatter plot reporesents 500 stochastically selected cities from -60 Lat (southern hemisphere) to ~ 90 Lat (northern hemisphere). The pattern of the scatter plot does not reveal any trends, as the plots for each city is distrubuted along the latitude range, and accross the cloudiness scale.  This would suggest that although the max temperature are found closer to the equator, cloud coverage is not. Solar energy that heats the area by the equator, is eventually dissipated, including the formation of clouds, accross the globe, and as a result of this dynamic system, clouds do not linger in a specific region of the globe.
+</p>
+
+
 </div>
 </body>
 
